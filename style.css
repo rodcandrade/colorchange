@@ -1,3 +1,4 @@
+
 button {
     background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
     background-size: 800% 400%;
@@ -69,3 +70,19 @@ button {
   h4 {
       font-size: 30px;
   }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  background-color: yellow;
+}
