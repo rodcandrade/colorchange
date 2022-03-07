@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  
+}
 button {
     background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
     background-size: 800% 400%;
@@ -14,6 +18,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-left: 800px;
+    margin-top: 400px;
    }
    
    button:hover {
@@ -47,7 +52,6 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
    }
 
    .nav-center{
